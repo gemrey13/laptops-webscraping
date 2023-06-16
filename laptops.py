@@ -6,6 +6,8 @@ filename = f'laptops.csv'
 f = open(filename, 'a')
 headers = 'name, description, old price, price, discount, monthly\n' 
 f.write(headers)
+
+
 print('This is for Educational Purposes Only')
 print('Press ctrl + C to exit.')
 start = int(input("From page: "))
