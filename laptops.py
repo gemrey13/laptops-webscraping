@@ -78,7 +78,7 @@ for page_num in range(start, end + 1):
 		print(f'New Price: {new_price}')
 		print(f'discount: {discount}')
 		print(f'Monthly: {monthly}')
-		print('\n')
+		print('\r')
 
 		f.write(f'{product_name}, {product_desc}, {old_price}, {new_price}, {discount}, {monthly}\n')
 
