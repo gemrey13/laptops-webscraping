@@ -74,13 +74,13 @@ for page_num in range(start, end + 1):
 		monthly = monthly.replace("₱" , "")
 		monthly = monthly.replace("/mo" , "")
 
-		# print(f'Product name: {product_name}')
-		# print(f'Product description: {product_desc}')
-		# print(f'Old Price: {old_price}')
-		# print(f'New Price: {new_price}')
-		# print(f'discount: {discount}')
-		# print(f'Monthly: {monthly}')
-		# print('\r')
+		print(f'Product name: {product_name}')
+		print(f'Product description: {product_desc}')
+		print(f'Old Price: {old_price}')
+		print(f'New Price: {new_price}')
+		print(f'discount: {discount}')
+		print(f'Monthly: {monthly}')
+		print('\r')
 
 		f.write(f'{product_name}, {product_desc}, {old_price}, {new_price}, {discount}, {monthly}\n')
 
